@@ -1,0 +1,405 @@
+*{
+
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.align{
+          background-color:aliceblue;
+          margin:0 auto;
+          width:80%;
+          height: 50%;
+          color: black;
+          font-weight: bold;
+          
+}
+h1{
+    font-size:30px;
+}
+.container1{
+
+    background-image: radial-gradient(#45eee8,#b1faee);
+    padding:20px;
+    
+    width: 100%;
+   
+
+}
+.container1 ul{
+                list-style: url("bang1.png") inside circle; 
+}
+.container1 li{
+    list-style-type:none;
+    margin: 50px 0;
+    font-size:15px;
+    font-weight: bolder;
+    position: relative;
+    font-size: 20px;;
+
+
+}
+.container1 li::before{
+
+       
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+     left:0;
+    
+    background-color: rgb(230, 212, 212);
+    width: 100%;
+    height: 15px;
+    border-radius: 10000px;
+}
+.container1 li::after{
+
+       
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+    left:0px;
+     background-color: #FF6934;
+    width: 0%;
+    height: 15px;
+    border-radius: 1000px;
+
+
+
+    animation-duration: 3s;
+    animation-timing-function: linear;    
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+   
+}
+.container1 li.one::after{
+
+    animation-name: one;
+}
+    @keyframes one{
+     to{
+         width: 50%;
+         background-color: #FFD43B;
+     }
+
+ }
+ .container1 li.sec::after{
+
+    animation-name: sec;
+}
+    @keyframes sec{
+     to{
+         width: 60%;
+         background-color: #fa2766;
+         
+     }
+
+ }
+
+
+.container2{
+
+    background-image: radial-gradient(#45eee8,#b1faee);
+    padding:20px;
+    
+    width: 100%;
+   
+
+}
+.container2 ul{
+                list-style: url("sad.png") inside circle;
+
+}
+.container3{
+
+    background-image: radial-gradient(#45eee8,#b1faee);
+    padding:20px;
+    
+    width: 100%;
+   
+
+}
+.container2 li{
+    list-style-type:none;
+    margin: 50px 0;
+    font-size:15px;
+    font-weight: bolder;
+    position: relative;
+    list-style: url("bang1.png") inside circle;
+    font-size:20px;
+}
+
+.container3 li{
+    list-style-type:none;
+    margin: 50px 0;
+    font-size:15px;
+    font-weight: bolder;
+    position: relative;
+    list-style: url("prayer.png") inside circle;
+    font-size:20px;
+
+
+}
+
+.container2 li::before{
+
+       
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+     left:0;
+    
+    background-color: rgb(230, 212, 212);
+    width: 100%;
+    height: 15px;
+    border-radius: 10000px;
+}
+
+.container3 li::before{
+
+       
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+     left:0;
+    
+    background-color: rgb(230, 212, 212);
+    width: 100%;
+    height: 15px;
+    border-radius: 10000px;
+}
+
+.container2 li::after{
+
+       
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+    left:0px;
+    background-color: #B74667;
+
+    
+    width: 0%;
+    height: 15px;
+    border-radius: 1000px;
+
+
+
+    animation-duration: 3s;
+    animation-timing-function: linear;    
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+   
+}
+.container3 li::after{
+
+       
+    content:'';
+    position: absolute;
+    top:calc(100% + 5px);
+    left:0px;
+    width: 0%;
+    height: 15px;
+    border-radius: 1000px;
+    background-color: #FF6934;
+
+
+    animation-duration: 3s;
+    animation-timing-function: linear;    
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+   
+}
+
+
+.container2 li.m1::after{
+
+    animation-name: m1;
+}
+    @keyframes m1{
+     to{
+         width:70%;
+     }
+
+ }
+ .container2 li.m2::after{
+
+    animation-name: m2;
+}
+    @keyframes m2{
+     to{
+         width: 70%;
+         
+     }
+
+ }
+
+ .container2 li.m3::after{
+
+    animation-name: m3;
+}
+    @keyframes m3{
+     to{
+         width:70%;
+     }
+
+ }
+ .container2 li.m4::after{
+
+    animation-name: m4;
+}
+    @keyframes m4{
+     to{
+         width: 75%;
+         
+     }
+
+ }
+
+ .container2 li.m5::after{
+
+    animation-name: m5;
+}
+    @keyframes m5{
+     to{
+         width:76%;
+     }
+
+ }
+ .container2 li.m6::after{
+
+    animation-name: m6;
+}
+    @keyframes m6{
+     to{
+         width: 77%;
+         
+     }
+
+ }
+
+ .container2 li.m7::after{
+
+    animation-name: m7;
+}
+    @keyframes m7{
+     to{
+         width:78%;
+     }
+
+ }
+ .container2 li.m8::after{
+
+    animation-name: m8;
+}
+    @keyframes m8{
+     to{
+         width: 78%;
+         
+     }
+
+ }
+
+ .container2 li.m9::after{
+
+    animation-name: m9;
+}
+    @keyframes m9{
+     to{
+         width:50%;
+     }
+
+ }
+ .container2 li.m10::after{
+
+    animation-name: m10;
+}
+    @keyframes m10{
+     to{
+         width: 70%;
+         
+     }
+
+ }
+
+ .container2 li.m11::after{
+
+    animation-name: m11;
+}
+    @keyframes m11{
+     to{
+         width:75%;
+     }
+
+ }
+ .container2 li.m12::after{
+
+    animation-name: m12;
+}
+    @keyframes m12{
+     to{
+         width: 80%;
+         
+     }
+
+ }
+
+ .container3 li.m13::after{
+
+    animation-name: m13;
+}
+    @keyframes m13{
+     to{
+         width:90%;
+         background-color:#FFD43B ;
+     }
+
+ }
+ .container3 li.m14::after{
+
+    animation-name: m14;
+}
+    @keyframes m14{
+     to{
+         width: 80%;
+         
+     }
+
+ }
+
+ .container3 li.m15::after{
+
+    animation-name: m15;
+}
+    @keyframes m15{
+     to{
+         width:80%;
+     }
+
+ }
+ .container3 li.m16::after{
+
+    animation-name: m16;
+}
+    @keyframes m16{
+     to{
+         width: 80%;
+         
+     }
+
+ }
+
+ .container3 li.m17::after{
+
+    animation-name: m17;
+}
+    @keyframes m17{
+     to{
+         width: 100%;
+         background-color: #FFD43B;
+         
+     }
+
+ }
